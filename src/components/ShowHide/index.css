@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.main {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'roboto';
+}
+.heading {
+  color: #fddddb;
+  font-size: 28px;
+  text-align: center;
+}
+.butCont {
+  display: flex;
+}
+.btn {
+  color: #dd1264;
+  border-radius: 5px;
+  padding: 5px;
+  border: #dd1264 solid 1px;
+  margin-right: 10px;
+  flex-grow: 0;
+}
+.boxFirst {
+  height: 100px;
+  width: 150px;
+  text-align: center;
+  background-color: #fddddb;
+  margin-top: 20px;
+  margin-right: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.boxLast {
+  height: 100px;
+  width: 150px;
+  text-align: center;
+  background-color: #fddddb;
+  margin-top: 20px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
